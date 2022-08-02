@@ -30,7 +30,7 @@ public class task6 {
         String sql = "SELECT * FROM userinfo WHERE username = ? AND password = ?";
 
         String userName = "zhangsan";
-        String passWord = "123123";
+        String passWord = "12312";
 
         // 3、获取预编译sql preparedStatement
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
