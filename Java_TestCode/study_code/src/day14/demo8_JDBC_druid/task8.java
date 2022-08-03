@@ -18,7 +18,6 @@ import java.util.Properties;
 public class task8 {
     public static void main(String[] args) throws Exception {
         System.out.println(System.getProperty("user.dir")); // 打印当前所在目录，方便导入相对路径
-
         // 1、导入jar包
 
         // 2、定义配置文件
